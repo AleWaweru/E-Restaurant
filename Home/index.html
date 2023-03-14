@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Taste</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/e370fc6243.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+   
+  </head>
+  <style>
+ .card-title{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: brown;
+    text-shadow: #2c2b2b;
+    transform: scaleX( 0.6s ease );
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 144, 196);
+    height: 60px;
+    position: fixed;
+}
+
+.header2{
+        background-image: url("restaurant2.jpg");
+        background-size: cover;
+        width: 100%;
+        padding-top: 75px;
+        height: 600px;
+}
+.header2 h1{
+  text-align: center;
+  margin-top: 50px;
+  color: rgb(21, 222, 27);
+  font-weight: bold;
+  
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+}
+.header2 h2{
+  text-align: center;
+  color: rgb(166, 174, 166);
+  text-transform: capitalize;
+  font-size: 20px;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+.header2 span{
+  color: rgb(116, 240, 27);
+  font-size: 25px;
+  text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+  </style>
+  <body>
+    <!--------------------------------------------------HEADER SECTION-------------------------------------------->
+    <section class="container2" id="home">
+      <nav class="navbar" id="TopNavbar">
+        <label class="logo"> <b>Tamu Dishes</b> <i class="fa-solid fa-kitchen-set"></i> </label>
+
+        <ul class="container-list" id="list2">
+          <li class="list" id="list-item"><a href="#home">Home</a></li>
+          <li class="list" id="list-item"><a href="#about">About</a></li>
+          <li class="list" id="list-item"><a href="#services">Services</a></li>
+          <li class="list" id="list-item"><a href="#contacts">Contact</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </ul>
+
+        <button class="login-home" type="button" onclick="myLogin()">
+          Login
+        </button>
+      </nav>
+ <!--CONTENT SECTION-->
+ <section id="home" class="content">
+  <div class="header2">
+    <br /><br />
+    <h1>STARVING?</h1>
+    <br /><br />
+
+    <h2><i>
+      GET TO TASTE OUR DELICIOUS <br />
+      <span>DISH.</span>
+    </i> </h2>
+    <br /><br />
+  </div>
+</section>
+      
+      <br /><br />
+      <!------------------------------------------------------MAIN SECTION------------------------------------------>
+                          <!--About section-->
+      <section class="main" id="about">
+        <div class="header">
+          <h1>ABOUT US</h1>
+          <div class="header-info">
+            <img src="image2.jpg" alt="" />
+
+            <div class="text-box">
+            <p>
+                <h2>Who We Are</h2>
+              Driven with the love for good food, talking of mouth watering meals,Tamu Dishes came into play.
+              Inspired by the desire to try new dishes, and share with the rest of the world,
+              Tamu Dishes was established in  year 2023 as an online food order restaurant.
+              It was established with the main purpose being serving the busy population of Nairobi CBD with quality meals, at a pocket friendly price, 
+              making in person deliveries at their place of preference.InThe near future, the company aims at open more remote branchs in Kenya and beyond.
+            </p>
+        </div>
+          </div>
+        </div>
+      </section><br><br>
+
+       <!--services section start-->
+     <section class="service" id="services"> 
+
+      <div class="service-header">
+        <h1>SERVICES</h1><br>
+        <h3><i> This Are Some Of The Services We Provide</i></h3>
+      </div><br>
+      <div class="container">
+        <div class="row g-3" style="margin-left: 35px;  ">
+          <div class="col-md-3 col-7" style="margin-left:40px ;">
+            <div class="card">
+              <img src="chef1.jpg" class="card-img-top img-fit"  alt="">
+
+              <div class="card-body">
+
+              <h1 class="card-title">Fresh On Order Meals</h1>
+              <p class="card-text">With our world class Chefs at hand, we thrive everyday to meet your favorite dish expectation.
+                Fresh is our style and quality is our drive. </p>
+
+                <div class="text-end">
+                  <a href="#" class="btn btn-outline-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-7"  style="margin-left:40px ;">
+            <div class="card " style="justify-content: space-between;">
+              <img src="deliveries.jpg" class="card-img-top img-fit" alt="">
+
+              <div class="card-body">
+
+              <h1 class="card-title">Deliveries</h1>
+              <p class="card-text">Upon a successful order, We make deliveries at your door stop.
+                Be it in your work place or just relaxed in a park, we keep your health condition in check. </p>
+
+                <div class="text-end">
+                  <a href="#" class="btn btn-outline-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 col-7" style="margin-left:40px ;">
+            <div class="card">
+              <img src="catering.jpg" class="card-img-top img-fit" alt="">
+
+              <div class="card-body">
+
+              <h1 class="card-title">OutSide Catering/ Corporate Events</h1>
+              <p class="card-text">We also provide outdoor services for different kinds of events.From corporates to parties, weddings and much more.</p>
+
+                <div class="text-end">
+                  <a href="#" class="btn btn-outline-primary">learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+    
+
+  </section> <br><br>
+
+
+
+       <!-----------------------------------------------------FOOTER SECTION---------------------------------------->
+
+         <!-----contact section---->
+    <section class="contact_us" id="contacts">
+      <div class="content">
+        <h1>CONTACT US</h1>
+        <p>You can contact us through the following ways</p>
+      </div>
+        <div class="container">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </div>
+              <div class="text">
+                <h2>Address</h2>
+                <p>
+                  Kasarani Area, <br/>
+                  Nairobi.
+                </p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+              </div>
+              <div class="text">
+                <h2>Phone</h2>
+                <p>0716570983/0718354497</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="icon">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+              </div>
+              <div class="text1">
+                <h2>Email</h2>
+                <p>info@gemtechnoglobal.co.ke / ngashalex8@gmail.com.</p>
+              </div>
+            </div>
+          
+        </div>
+
+        <div class="contactForm">
+          <form method="post" action="connectdb.php">
+            <h2>Send Message</h2>
+            <div class="inputBox">
+              <input type="text" name="fname" required="required" />
+              <span>Full Name</span>
+            </div>
+            <div class="inputBox">
+              <input type="text" name="email" required="required" />
+              <span>Email</span>
+            </div>
+            <div class="inputBox">
+              <textarea required="required " name="message"></textarea>
+              <span>Type your Message...</span>
+            </div>
+            <div class="inputBox">
+              <input type="submit" name="submit" value="Send" />
+            </div>
+          </form>
+        </div>
+        
+    
+    </section>
+    
+
+    <!--FOOTER SECTION-->
+    <section class="footer">
+      <div class="footer-cont">
+        <label for="">@copyright 2023</label>
+
+
+      </div>
+    </section>
+    <script src="home.js"></script>
+
+   
+  </body>
+</html>
